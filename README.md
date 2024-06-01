@@ -3,7 +3,10 @@
 ### Overview
 This application is a dynamic to-do list with three main sections: Pending, In Progress, and Completed. It allows users to add tasks, move them between sections.
 
-### Sections
+## Screenshot for reference
+![todo](https://github.com/royabhi647/train-ticket-booking/assets/98969290/a8b55001-153c-46d6-bffd-dfe2fe7a65b4)
+
+## Sections
 
 1. **Pending**
    - Contains newly added tasks.
