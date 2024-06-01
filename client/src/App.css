@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+form button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: orange;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+}
+
+.section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.taskContainer{
+  width: 34%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 800px) {
+  li {
+    flex-direction: column;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.completed-date {
+  margin-top: 10px;
+  text-align: right;
+}
+
+li button {
+  cursor: pointer;
+} 
+
+.btn-status{
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  max-width: 100px;
+  padding: 10px;
+}
+
+.title{
+  color: #FF00FF;
+  border-bottom: 2px solid gold;
+}
+
+.description{
+  margin-top: 10px;
+  color: #008B8B;
+}
